@@ -1,6 +1,6 @@
 package com.javatpoint.beans;
 
-public class BookBeann {
+public class BookBean {
 private String callno,name,author,publisher;
 private int quantity,issued;
 public BookBean() {
