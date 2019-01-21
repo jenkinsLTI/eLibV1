@@ -1,4 +1,4 @@
-ppackage com.javatpoint.dao;
+package com.javatpoint.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
