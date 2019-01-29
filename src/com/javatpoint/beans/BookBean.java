@@ -3,6 +3,7 @@ package com.javatpoint.beans;
 public class BookBean {
 private String callno,name,author,publisher;
 private int quantity,issued;
+	public int q;
 public BookBean() {
 	super();
 	// TODO Auto-generated constructor stub
