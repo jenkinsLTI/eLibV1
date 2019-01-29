@@ -161,7 +161,7 @@ public class BookDao {
 			ResultSet rs=ps.executeQuery();
 			while(rs.next()){
 				IssueBookBean bean=new IssueBookBean();
-				bean.setCallno(rs.getString("callno"));
+				bean.setCallno(rs.getString("callnoo"));
 				bean.setStudentid(rs.getString("studentid"));
 				bean.setStudentname(rs.getString("studentname"));
 				bean.setStudentmobile(rs.getLong("studentmobile"));
