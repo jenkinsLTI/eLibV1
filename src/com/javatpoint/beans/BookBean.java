@@ -9,7 +9,6 @@ public BookBean() {
 }
 public BookBean(String callno, String name, String author, String publisher, int quantity) {
 	super();
-	// int a;
 	this.callno = callno;
 	this.name = name;
 	this.author = author;
